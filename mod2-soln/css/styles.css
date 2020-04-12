@@ -1,20 +1,15 @@
 * {
     box-sizing: border-box;
 }
-.row {
-    width: 100%;
-}
 @media (min-width: 992px) {
     .coll {
         float: left;
-        border: 1px solid black;
         width: 33.33%;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .colm50, .colm100 {
         float: left;
-        border: 1px solid black;
     }
     .colm50 {
         width: 50%;
@@ -27,23 +22,31 @@
 @media (max-width: 767px) {
     .cols {
         float: left;
-        border: 1px solid black;
         width: 100%;
         clear: both;
     }
 }
+body{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row {
+    width: 100%;
+}
 .heading {
     text-align: center;
+    font-size: 40px;
 }
 div.row > div{
     position: relative;
-    margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
 }
 .headerfloater {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 10px;
+    top: 10px;
+    border: 2px solid black;
+    padding: 2px 20px;
+    font-size: 30px;
 }
 .header1 {
     background-color: grey;
@@ -57,4 +60,7 @@ div.row > div{
 
 .inside {
     background-color: darksalmon;
+    border: 2px solid black;
+    padding: 2px 20px;
+    font-size: 20px;
 }
