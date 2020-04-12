@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .coll {
+        float: left;
+        border: 1px solid black;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .colm50, .colm100 {
+        float: left;
+        border: 1px solid black;
+    }
+    .colm50 {
+        width: 50%;
+    }
+    .colm100 {
+        width: 100%;
+        clear: both;
+    }
+}
+@media (max-width: 767px) {
+    .cols {
+        float: left;
+        border: 1px solid black;
+        width: 100%;
+        clear: both;
+    }
+}
+.heading {
+    text-align: center;
+}
+div.row > div{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.headerfloater {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.header1 {
+    background-color: grey;
+}
+.header2 {
+    background-color: red;
+}
+.header3 {
+    background-color: maroon;
+}
+
+.inside {
+    background-color: darksalmon;
+}
