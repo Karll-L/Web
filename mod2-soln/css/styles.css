@@ -61,6 +61,6 @@ div.row > div{
 .inside {
     background-color: darksalmon;
     border: 2px solid black;
-    padding: 2px 20px;
+    padding: 10px 20px;
     font-size: 20px;
 }
