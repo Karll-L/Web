@@ -15,7 +15,9 @@ div.row > div{
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+.navbar-brand{
+    font-size: 30px;
+}
 .navbar {
     background-color: #6499e8;
 }
@@ -37,6 +39,7 @@ div.container {
 }
 body > div.text-center{
     padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .inside {
