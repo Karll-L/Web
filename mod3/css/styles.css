@@ -1,37 +1,42 @@
-@media (min-width: 768px) {
-    .col-xs {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+.col-md-12{
 }
-@media (max-width: 767px) {
-    .col-xs {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+.col-lg-4{
+}
+
+.container{
+    padding: 30px;
+}
+
+div.row > div{
+    position: relative;
+    padding: 10px 10px 10px 10px;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
-div.container {
-    max-width: 100%;
-}
-
-body > div.text-center {
-    font-size: 20px;
-}
-
 .navbar {
     background-color: #6499e8;
 }
-
 .nav-link {
     color: black;
     background-color: #9abaff;
     border-bottom: 2px solid #6499e8;
 
+}
+
+div.container {
+    max-width: 100%;
+}
+
+.text-center {
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+body > div.text-center{
+    padding-top: 20px;
 }
 
 .inside {
