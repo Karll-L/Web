@@ -5,6 +5,7 @@
 
 .container{
     padding: 30px;
+    padding-top: 5px;
 }
 
 div.row > div{
@@ -12,9 +13,15 @@ div.row > div{
     padding: 10px 10px 10px 10px;
 }
 
+h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
 .navbar-brand{
     font-size: 30px;
 }
